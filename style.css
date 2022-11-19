@@ -26,13 +26,13 @@ section{
   max-width: 800px;
 }
 
-.main .content h2{
+.main .content h1{
   color: #fff;
   font-size: 2em;
   font-weight: 500;
 }
 
-.main .content h2 span{
+.main .content h1 span{
   font-size: 2.8em;
   font-weight: 600;
 }
@@ -212,8 +212,9 @@ body{
 
 .about .content .col-left .img-card{
   position: relative;
-  width: 600px;
-  min-height: 800px;
+  width: 500px;
+  min-height: 600px;
+  max-width: 100%;
 }
 
 .about .content .col-left .img-card img{
@@ -234,6 +235,8 @@ body{
 
 .about .content .col-right .paragraph-text{
   font-size: 1em;
+  line-height:1.7;
+
 }
 
 .skills{
@@ -247,6 +250,7 @@ body{
   justify-content: space-between;
   color: #fff;
   margin-top: 20px;
+  line-height:1.7;
 }
 
 .skills .content .col-left{
@@ -304,9 +308,13 @@ body{
 
 .skills .content .col-right .bar .Html:before{
   width: 90%;
-  background: #0c73b8;
+  background: #eeac1f;
 }
 
+.skills .content .col-right .bar .Java:before{
+  width: 90%;
+  background: #9f07f7;
+}
 .skills .content .col-right .bar .photography:before{
   width: 80%;
   background: #e3a324;
@@ -333,6 +341,7 @@ body{
 .title p{
   font-size: 1em;
   width: 80%;
+  line-height:1.7;
 }
 
 .services .content .card{
