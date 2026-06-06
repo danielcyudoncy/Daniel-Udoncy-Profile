@@ -59,14 +59,17 @@ section{
   0%{
     margin-top: 0;
   }
-  25%{
+  20%{
     margin-top: -70px;
   }
-  50%{
+  40%{
     margin-top: -140px;
   }
-  75%{
-    margin-top: -70px;
+  60%{
+    margin-top: -210px;
+  }
+  80%{
+    margin-top: -140px;
   }
   100%{
     margin-top: 0;
@@ -236,7 +239,65 @@ body{
 .about .content .col-right .paragraph-text{
   font-size: 1em;
   line-height:1.7;
+}
 
+.about .content .col-right .about-scrollable{
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.about .content .col-right .about-scrollable::-webkit-scrollbar{
+  width: 8px;
+}
+
+.about .content .col-right .about-scrollable::-webkit-scrollbar-thumb{
+  background: rgba(58, 108, 244, 0.45);
+  border-radius: 4px;
+}
+
+.about .content .col-right .competencies-box{
+  margin-top: 25px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.about .content .col-right .competencies-box h3{
+  margin: 0 0 15px;
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #3a6cf4;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about .content .col-right .competencies-list{
+  columns: 2;
+  column-gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about .content .col-right .competencies-list li{
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 24px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.about .content .col-right .competencies-list li:before{
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #3a6cf4;
+  font-size: 1.2em;
+  line-height: 1.2;
 }
 
 .skills{
